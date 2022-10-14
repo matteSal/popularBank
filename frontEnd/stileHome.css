@@ -1,0 +1,123 @@
+@media screen and (min-width:450px){
+    body {
+        background-color: black;
+    }
+}
+
+body {
+    background-color: rgba(0, 80, 0, 0.293);
+}
+.contenitoreSaldo {
+    background-color: rgb(8, 122, 8);
+    width: 100vw;
+    height: 105px;
+    top: 0;
+    left: 0;
+    font-family: 'Fira Sans', sans-serif;
+    position: fixed;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.saldo {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    margin-left: 30px;
+    margin-top: 45px;
+}
+
+.puoiSpendere {
+    color:rgb(0, 80, 0);
+    position: absolute;
+    font-size: 15px;
+    margin-left: 26px;
+    margin-top: 20px;
+}
+
+.movimenti {
+    font-size: 20px;
+    font-family: 'Fira Sans', sans-serif;
+    color: rgba(0, 80, 0, 0.698);
+    margin-top: 150px;
+    margin-left: 20px;
+
+}
+
+.contenitoreMovimenti {
+    border: 3px solid rgb(0, 80, 0);
+    border-radius: 10px;
+    margin-left: 13px;
+    width: 370px;
+    height: 367px;
+    margin-top: 0px;
+}
+
+.contenitoreMovimentiInteri {
+    border: 3px solid rgb(0, 80, 0);
+    border-radius: 10px;
+    margin-left: 13px;
+    width: 370px;
+    height: 500px;
+    margin-top: 0px;
+    overflow: scroll;
+}
+
+.movimento1 {
+    font-family: 'Fira Sans', sans-serif;
+    border: 2px solid rgb(0, 80, 0);
+    border-radius: 10px;
+    height: 90px;
+    width: 320px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.movimento1 h1{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 14px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.movimento1 h2{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: -40px;
+}
+
+.movimento1 h3{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 17px;
+    margin-left: 227px;
+    margin-top: 0px;
+}
+
+.menu {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 81px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(8, 122, 8);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.menu ion-icon{
+    font-size: 35px;
+    margin-left: 60px;
+    margin-top: 25px;
+    color: white;
+}
+
+.icone {
+    margin-left: -50px;
+}
+
+.contenitoreForm {
+    margin-top: 150px;
+}
